@@ -110,9 +110,9 @@ message EnvironmentMetrics {
   uint32 wind_direction = 13;
 
   /*
-   * Wind speed average in m/s
+   * Wind speed average or instantaenous in m/s
    */
-  float wind_speed_average = 14;
+  float wind_speed = 14;
 
   /*
    * Wind speed gust (max) in m/s
